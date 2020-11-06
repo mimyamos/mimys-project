@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MimysHair & Beaute' Place</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../res/fontawesome/css/all.css" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper{
+            background: url(images/wallpaper.jpg);
+            background-size: cover;
+            height: 100vh;
+
+        }
+        .navbar{
+            height: 100px;
+            width: 100%;
+            background: rgba(0,0,0,0.4);
+            margin-top: -20px;
+            margin-left: 10px;
+        }
+
+        ul li {
+            float: left;
+            width: 190px;
+            height: 50px;
+            background-color: rgb(34, 8, 8);
+            opacity: .8;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            margin-right: 2px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        ul li a:hover{
+            background-color: green;
+        }
+
+        ul li ul li {
+            display: none;
+        }
+
+        ul li:hover ul li {
+            display: block;
+        }
+
+        .wrapper .center{
+            position: absolute;
+            top: 380%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+
+        .center h1 {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;            
+        }
+
+        .center h2 {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;            
+        }
+
+        .center .buttons{
+            margin: 35px 280px;
+        }
+
+        .buttons button{
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffb3b3;
+            background: red;
+            border: 1px solid #cc0000;
+            outline: none;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: .5s;
+        }
+
+        .button .btn{
+            margin-left: 25px;
+        }
+        .buttons button:hover {
+            background: rgb(34, 8, 8);
+        }
+        footer {
+            color: white;
+            height: -100px;
+            bottom: 100px;
+            text-align: center;
+            font-size: 12px;
+            margin-top: 0px;
+            background-color:rgb(34, 8, 8);
+
+        @media screen and (max-width: 600px){
+            .col{
+                    flex: 100%;
+                    max-width: 100%;
+                }
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav class="navbar">
+            <label class="logo"MimysHair></label>
+            <ul>
+                <li><a>HOME</a></li>
+                <li><a>HAIR</a>
+                <ul>
+                    <li><a>Human Hair</a></li>
+                    <li><a>Weavons</a></li>
+                    <li><a>wigs</a></li>
+                </ul>
+                </li>
+                <li><a>MAKEUP</a>
+                <ul>
+                    <li><a>Foundations</a></li>
+                    <li><a>powders</a></li>
+                    <li><a>brushes</a></li>
+                    <li><a>contours/a></li>
+                </ul>
+                </li>
+                <li><a>SKINCARE</a>
+                <ul>
+                    <li><a>Body Lotions</a></li>
+                    <li><a>soup & bodywash</a></li>
+                    <li><a>body treatment</a></li>
+                
+                </ul>
+                </li>
+                <li><a>HAIRCARE</a>
+                <ul>
+                    <li><a>Relaxers</a></li>
+                    <li><a>Hair treatment</a></li>
+                    <li><a>Hair Creams</a></li>
+                    
+                </ul>
+                
+                </li>
+                <li><a>ABOUT US</a>
+                <ul>
+                    <li><a>Our Team</a></li>
+                    <li><a>Mission & Vision</a></li>
+                    <li><a>Resources</a></li>
+        
+                </ul>
+                </li>
+                <li><a>CONTACT</a>
+                <ul>
+                    <li><a>Map</a></li>
+                    <li><a>Directions</a></li>
+            </ul>
+            </li>
+            </ul>
+            
+        <div class="center">
+            <h1>Welcome to MimysHair</h1>
+            <h2>Create Something New</h2>
+            <div class="buttons">
+                <button>Explore More</button>
+                <button class="btn">Subscribe Us</button>
+            </div>
+        </div>
+        </div>
+
+
+        <!---------------footer-------------->
+        <footer class="page bg-dark">
+            <div class="bg-success">
+                <div class="container">
+                    <div class="row py-4 d-flex align-item-center">
+        
+                        <div class="col-md-12 text-center">
+                            <a href="#"><i class="fab fa-facebook text-white mr-4"></i></a>
+                            <a href="#"><i class="fab fa-twitter text-white mr-4"></i></a>
+                            <a href="#"><i class="fab fa-instagram text-white mr-4"></i></a>
+                            <a href="#"><i class="fab fa-linkedin text-white mr-4"></i></a>
+                            <a href="#"><i class="fab fa-google-plus text-white mr-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container text-center text-md-left mt-5">
+                <div class="row">
+                    <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold color-white">The Cosmeticians</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto"style="width: 300px; height: 2px; margin-top: 5px">
+                    <p class="mt-2">PEOPLE WILL STARE. MAKE IT WORTH THEIR WHILE<br>HARRY WINSTON!</p>
+                    </div>
+        
+                    <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">The Products</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto"style="width: 200px; height: 2px; margin-top: 5px">
+                    
+                    <main class="list-unstyled">
+                    <b class="my-2"><a href="#">Human Hair</a></b>
+                    <b class="my-2"><a href="#">Weavons</a></b>
+                    <b class="my-2"><a href="#">Skincare Products</a></b>
+                    <b class="my-2"><a href="#">Makeup Products</a></b>
+                    <b class="my-2"><a href="#">Haircare Products</a></b>
+                    </main>
+                </div>
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto"style="width: 200px; height: 2px; margin-top: 5px">
+                    
+                    <main class="list-unstyled">
+                    <b class="my-2"><a href="#">Home</a></b>
+                    <b class="my-2"><a href="#">About</a></b>
+                    <b class="my-2"><a href="#">Services</a></b>
+                    <b class="my-2"><a href="#">Contacts</a></b>
+                    </main>
+                </div>
+                
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto"style="width: 300px; height: 2px; margin-top: 5px">
+                    
+                    <main class="list-unstyled">
+                    <b class="my-2"><i class="fas fa-home mr-3"></i>Leha Road, City College, Karu, Abuja</b>
+                    <b class="my-2"><i class="fas fa-envelope-open-text mr-3"></i>mimyamos04@gmail.com</b>
+                    <b class="my-2"><i class="fas fa-phone mr-3"></i>+234-7037408244</b>
+                    <b class="my-2"><i class="fas fa-print mr-3"></i>+234-8032205095</b>               
+                    </main>
+                </div>
+                
+                </div>
+                    </div>
+               </div>
+            </div>
+        
+            <div class="footer-copyright text-center py-3">
+                <p>&copy; Copyright
+                    <i href="#">estheramos32@gmail.com</i></p>
+                    <p>Designed by MimysHair</p>
+            </div>
+            
+        </footer>
+                
+        
+        
+
+
+
+
+</body>
+</html>
